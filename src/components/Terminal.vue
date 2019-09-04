@@ -150,7 +150,7 @@
 //  import * as Typed from '../../node_modules/typed.js'
   export default {
     name: 'Terminal',
-    data () {
+    data: function () {
       return {
       }
     },

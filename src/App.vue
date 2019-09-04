@@ -11,7 +11,7 @@
   import Footer from "./components/Footer.vue"
   export default {
   name: 'app',
-    data(){
+    data: function(){
 
     },
     components: {"Terminal":Terminal, "Footer":Footer}

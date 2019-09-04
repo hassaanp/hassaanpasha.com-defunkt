@@ -8,7 +8,7 @@
 <script>
   export default {
     name: 'HelloWorld',
-    data () {
+    data: function() {
       return {
       }
     }
