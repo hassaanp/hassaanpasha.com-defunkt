@@ -15,39 +15,28 @@
     </div>
     <!-- data -->
     <div class="terminal-data featured-skills-output">
-      <br>Featured Skills<br>
+      <br>Primary Skills<br>
       ----------------------------------------------<br>
-      Featured: DevOps  <span class="gray"># featured skills</span><br><br>
+      Featured: Backend Development and DevOps  <span class="gray"># My featured skills</span><br><br>
 
-      &nbsp;&nbsp;A broad expertise and technical knowledge<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Cloud Computing: GCE/AWS/DO</span><br>
-      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Container Orchestration: Mesos/DCOS, Marathon</span><br>
-      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">CI/CD: Jenkins, BitBucket, Git, Gerrit, JIRA</span><br>
-      <br>
-      <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span><br>
-      &nbsp;&nbsp;Features&nbsp;&nbsp;&nbsp;Scenarios&nbsp;&nbsp;&nbsp;Steps&nbsp;&nbsp;&nbsp;Passed&nbsp;&nbsp;&nbsp;Failed<br>
-      <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span><br>
-      &nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓ 4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0      <br>
-      <br>
-      &nbsp;&nbsp;Completed 1 feature in 0.01s<br>
+      &nbsp;&nbsp;Significant expertise with these technologies<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">NodeJS: 8.x,10.x,12.x</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Firebase: Functions, Realtime DB, Hosting</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Data Analytics: BigQuery, Google PubSub, Kubernetes Engine, Segment, Keen.io</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Cloud Computing: Worked on GCE primarily with some exposure to AWS: Lambda, Dynamo, EC2, ELK</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Container Orchestration: Kubernetes, Mesos/DCOS, Marathon</span><br>
       <br>
     </div>
     <div class="terminal-data dev-skills-output">
-      <br>Development Skills<br>
+      <br>Other Skills<br>
       ----------------------------------------------<br>
-      Highlighted: Programming  <span class="gray"># featured skills</span><br><br>
-
-      &nbsp;&nbsp;Breadth and Depth spanning a wide range of applications<br>
+      <span class="gray"># What else do I know?</span><br><br>
+      &nbsp;&nbsp;Extensive experience with building and managing production ready applications across various niche using<br>
       &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Web Front-end: HTML, CSS, Bootstap, Angular, Vue</span><br>
-      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Container Orchestration: Mesos/DCOS, Marathon</span><br>
-      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">CI/CD: Jenkins, BitBucket, Git, Gerrit, JIRA</span><br>
-      <br>
-      <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span><br>
-      &nbsp;&nbsp;Features&nbsp;&nbsp;&nbsp;Scenarios&nbsp;&nbsp;&nbsp;Steps&nbsp;&nbsp;&nbsp;Passed&nbsp;&nbsp;&nbsp;Failed<br>
-      <span class="gray">&nbsp;---------- ----------- ------- -------- --------</span><br>
-      &nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓ 4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0      <br>
-      <br>
-      &nbsp;&nbsp;Completed 1 feature in 0.01s<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">CI/CD: BitBucket, Github, Bitbucket Pipelines, Gitlab, Jenkins, Netlify</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Project Management: Jira, Confluence, Asana, Trello, Slack, Gitlab</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Documentation: JSDocs, Swagger</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="green">✓</span> <span class="gray">Servers: Linux, Dockers, LetsEncrypt, PM2, Stackdriver, Logstash</span><br>
       <br>
     </div>
   </div>
@@ -213,7 +202,7 @@
           },
           {
             action: 'type',
-            strings: ['ls /usr/skills/development^400'],
+            strings: ['ls /usr/skills/others^400'],
             output: $('.dev-skills-output').html()
           }
 
